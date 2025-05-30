@@ -1,0 +1,12 @@
+# macOS system files
+.DS_Store
+
+# Jupyter notebook temporary files
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+
+# VSCode settings (선택)
+.vscode/
+
