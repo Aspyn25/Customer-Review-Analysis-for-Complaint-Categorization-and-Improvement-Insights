@@ -13,11 +13,14 @@ sentiments = st.sidebar.multiselect("Select Sentiments", df["sentiment"].unique(
 category_options = df["category"].dropna().unique()
 categories = st.sidebar.multiselect("Select Categories", category_options, default=category_options)
 
-# Filtered DataFrame with confidence >= 0.75
+# Add confidence slider
+max_conf = float(df["confidence"].max())
+confidence_threshold = st.sidebar.slider("Minimum Confidence", min_value=0.75, max_value=max_conf, value=0.75, step=0.01)
+
 filtered_df = df[
     (df["sentiment"].isin(sentiments)) &
     (df["category"].isin(categories)) &
-    (df["confidence"] >= 0.75)
+    (df["confidence"] >= confidence_threshold)
 ]
 
 # Overview
