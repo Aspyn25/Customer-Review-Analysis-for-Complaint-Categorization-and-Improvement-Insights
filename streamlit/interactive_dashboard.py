@@ -5,7 +5,7 @@ import seaborn as sns
 from wordcloud import WordCloud
 
 # Load data
-df = pd.read_csv("df_streamlit1.csv")
+df = pd.read_csv("streamlit/df_streamlit1.csv")
 
 # Sidebar filters
 st.sidebar.header("Filter Options")
