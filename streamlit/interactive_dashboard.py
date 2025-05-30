@@ -13,7 +13,12 @@ sentiments = st.sidebar.multiselect("Select Sentiments", df["sentiment"].unique(
 category_options = df["category"].dropna().unique()
 categories = st.sidebar.multiselect("Select Categories", category_options, default=category_options)
 
-filtered_df = df[df["sentiment"].isin(sentiments) & df["category"].isin(categories)]
+# Filtered DataFrame with confidence >= 0.75
+filtered_df = df[
+    (df["sentiment"].isin(sentiments)) &
+    (df["category"].isin(categories)) &
+    (df["confidence"] >= 0.75)
+]
 
 # Overview
 st.title("Customer Review Analysis Dashboard")
