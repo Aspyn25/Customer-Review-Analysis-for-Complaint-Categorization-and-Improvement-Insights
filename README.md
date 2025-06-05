@@ -2,7 +2,7 @@
 
 
 
-## 🗂 Project Overview
+## Project Overview
 
 This project focuses on analyzing customer reviews to identify areas for product improvement. It leverages Large Language Models (LLMs) to classify sentiments and generate actionable suggestions based on the content of each review.
 
