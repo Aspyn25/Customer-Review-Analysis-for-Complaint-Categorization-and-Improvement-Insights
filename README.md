@@ -1,6 +1,4 @@
-## 📌 Project Title
-
-# Customer Review Analysis for Complaint Categorization and Improvement Insights
+# 📌 Customer Review Analysis for Complaint Categorization and Improvement Insights
 
 
 
