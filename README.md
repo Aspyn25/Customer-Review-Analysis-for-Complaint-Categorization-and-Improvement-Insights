@@ -71,7 +71,7 @@ This project demonstrates how customer reviews—when processed with the right t
 - **GitHub Repository**: [github.com/Aspyn25/Customer-Review-Analysis-for-Complaint-Categorization-and-Improvement-Insights](https://github.com/Aspyn25/Customer-Review-Analysis-for-Complaint-Categorization-and-Improvement-Insights)  
 - **Interactive Dashboard**: [Streamlit App](https://da7xrgatbqek7awwkswkqx.streamlit.app/)  
 - **LLM Pipeline Details**: See `llm/README.md` for technical implementation of the LLM-based processing
-
+[llm/README.md](https://github.com/Aspyn25/Customer-Review-Analysis-for-Complaint-Categorization-and-Improvement-Insights/tree/main/LLM)
 ## Auther
 **Aspyn (Jeonghyun Song)** <br>
 🔗 [GitHub](https://github.com/Aspyn25)  
