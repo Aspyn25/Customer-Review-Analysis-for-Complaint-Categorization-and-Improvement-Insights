@@ -84,9 +84,9 @@ CSV Save / Result Merge
 
 ---
 
-## 📁 File Summary
+## 📁 Function Summary
 
-| File Name               | Purpose                                      |
+| Function Name               | Purpose                                      |
 |------------------------|----------------------------------------------|
 | `analyze_reviews_with_id` | Sentiment & feedback batch pipeline         |
 | `build_sentiment_prompt` | Sentiment classification prompt builder     |
